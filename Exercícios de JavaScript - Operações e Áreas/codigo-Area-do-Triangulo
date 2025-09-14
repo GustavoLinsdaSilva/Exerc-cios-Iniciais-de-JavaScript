@@ -1,0 +1,5 @@
+alert("Bem-vindo à Área do Triângulo");
+let base_do_triangulo = Number(prompt("Digite o valor da base :"));
+let altura_do_triangulo = Number(prompt("Digite o valor da altura :"));
+let area_do_triangulo = (base_do_triangulo * altura_do_triangulo) / 2;
+alert(`A area é = (${base_do_triangulo}*${altura_do_triangulo})/2 =${area_do_triangulo}`);

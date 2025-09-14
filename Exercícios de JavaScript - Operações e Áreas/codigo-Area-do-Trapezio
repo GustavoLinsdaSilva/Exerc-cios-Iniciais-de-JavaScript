@@ -1,0 +1,6 @@
+alert("Bem-vindo à Área do Trapézio");
+let base_maior = Number(prompt("Digite o valor da base maior:"));
+let base_menor = Number(prompt("Digite o valor da base menor:"));
+let altura_do_trapezio = Number(prompt("Digite o valor da altura:"));
+let area_do_trapesio = ((base_maior + base_menor) * altura_do_trapezio) / 2;
+alert(`A área do trapézio é: ((${base_maior} + ${base_menor}) * ${altura_do_trapezio}) / 2 = ${area_do_trapesio}`);

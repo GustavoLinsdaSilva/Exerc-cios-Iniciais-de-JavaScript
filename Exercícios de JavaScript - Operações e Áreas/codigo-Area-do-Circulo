@@ -1,0 +1,4 @@
+alert("Bem-vindo à Área do Circulo");
+let raio_do_circulo = Number(prompt("Digite o Numero do Raio :"));    
+let area_do_circulo = (raio_do_circulo*raio_do_circulo)*Math.PI;
+alert(`A area é = (${raio_do_circulo}*${raio_do_circulo})*π =${area_do_circulo}`);
